@@ -1,0 +1,41 @@
+*
+{
+    margin:0;
+    box-sizing: border-box;
+    padding:0;
+}
+.container{
+    background-image: url(https://is2-ssl.mzstatic.com/image/thumb/Purple116/v4/8d/5f/43/8d5f431f-9ac3-0e99-b0ae-c359469fef4c/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/1200x630wa.png);
+}
+.moviehead
+{
+    margin:0.5px;
+    border-radius:5px;
+    background-color:orange;
+    color:rgb(250, 224, 215);
+    font-size: 25px;
+    display:flex;
+    place-content:center;
+    
+}
+
+.moviename
+{ padding-top:20px;
+    padding-left:10px;
+    font-weight: 10px;
+    font-size:25px;
+    color:rgb(186, 63, 15);
+    text-decoration: underline;
+}
+.visual
+{   margin-top:20px;
+     margin-bottom:20px;
+    padding-left:60px;
+}
+.content
+{
+    padding-left:40px;
+    font-size: 30px;
+    color:rgb(202, 135, 28);
+    font-weight:100; 
+}
