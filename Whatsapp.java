@@ -86,7 +86,7 @@ public class Whatsapp {
 
        System.out.println("the message is received from:"+d[i-1].phno1);
        Parentdata pa=new Parentdata();
-       pa.chat("hi! how are you? !!");
+       pa.chat("hi! how are you? !");
        System.out.println("\n\nchat history of "+pa.user+"\n\n");
        pa.display();
        for(int num=0;num<i;num++)
