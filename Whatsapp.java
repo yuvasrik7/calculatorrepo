@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-import java.util.Sanner;
+import java.util.Scanner;
 class Parentdata
 {
     final String user="yuvasri";
