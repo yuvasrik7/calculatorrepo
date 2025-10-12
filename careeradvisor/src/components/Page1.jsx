@@ -1,15 +1,19 @@
 import React from 'react';
 import './Page1.css';
+import { useNavigate } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
-
 export const Page1=()=>
+{   const navigate=useNavigate()
+     const getstart=()=>
 {
+    navigate("/Page2");
+};
 return(<>
-     <head class="head">
+     <header class="head">
         <h4 ><button class="headbtn" >CA</button>Career Advisor </h4>
         <button class="btn">Login</button>
-     </head>
+     </header>
     
      <body>
         <main>
@@ -17,7 +21,7 @@ return(<>
             <h1 class="headp">Your Career Journey Starts Here</h1>
             <p>Get personalized guidance for choosing the right course and college</p>
             <div class="mainbutton">
-            <button class="mainbtn">Get Started <FontAwesomeIcon icon={faArrowRight} style={{ color: "#ffffff" }} /></button>
+            <button class="mainbtn" onClick={getstart}>Get Started <FontAwesomeIcon icon={faArrowRight} style={{ color: "#ffffff" }} /></button>
             <button class="learnmore">Learn More</button>
             </div>
             <div class="container">
