@@ -1,0 +1,151 @@
+body {
+    font-family: 'Nunito', sans-serif;
+  background: linear-gradient(to right, rgb(236, 242, 249), rgb(255, 255, 255));
+}
+
+h1, h2, h3,h4,label{
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    display:flex;
+    flex-direction: row;
+    background:white;
+    justify-content: space-between;
+    height:64px;
+    align-items: center;
+    margin:0 40px 0 40px;
+   
+}
+.head2
+{
+font-size: 1rem;;
+}
+head p{
+    max-width: 100px;
+    font-size:0.9rem;
+    color:rgb(73, 72, 72);
+    padding:5px;
+    border-radius:5px;
+    font-weight: 700;
+     
+}
+
+p:hover{
+     background-color:rgb( 233,241,251);
+      color:rgb(30,60,175);
+
+}
+.p1
+{
+    margin:0 40px 0 40px ;
+}
+p{
+    color:rgb(73, 72, 72);
+    font-size:1.1rem;
+}
+h1
+{   padding:10px 10px 10px 0;
+    margin:30px 40px 0 40px;
+    
+
+}
+
+.dashblk1 {
+    margin:40px ;
+  background: linear-gradient(to right, rgb(65,128,245), rgb(145,52,233));
+  color: white;
+  padding: 20px;
+  
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;  /* stack top-row and new vertically */
+  gap: 10px;               /* space between rows */
+}
+
+/* First row: Your Progress + 68% side by side */
+.top-row {
+  display: flex;
+  justify-content: space-between;  /* pushes text to opposite ends */
+  align-items: center;              /* vertically align */
+}
+
+
+.new {
+    margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.line
+{   
+    margin-top: 20px;;
+    width:68%;
+    color:white;
+    background-color: white;;
+    border-radius: 10px;
+    height:8px;;
+}
+.dashblk2
+{   
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    border-radius:10px;
+    padding:10px;
+    margin:40px ;
+    
+}
+.findcollege
+{
+     border:1.5px dashed rgb(187,247,208);
+    border-radius: 10px;
+    padding:15px;;
+    background-color:rgb( 240 ,253,244);
+    margin:15px;
+    padding:20px;
+    
+}
+.findcollegehead
+{    padding-bottom:8px;
+     color:rgb(22,101,52);
+    font-weight:700;
+}
+.takeaptitude
+{
+     border:1.5px dashed rgb(191,219,254);
+    border-radius: 10px;
+    padding:15px;;
+    background-color:rgb( 233,241,251);
+    margin:15px;
+    padding:20px;
+    
+}
+.takeaptitudehead
+{     padding-bottom:8px;
+     color:rgb(30,60,175);
+    font-weight:700;
+}
+.Explorecareer
+{
+     border:1.5px dashed rgb(254,215,170);
+    border-radius: 10px;
+    padding:15px;;
+    background-color:rgb( 255,247,237);
+    margin:15px;
+    padding:20px;
+    
+}
+.Explorecareerhead
+{     padding-bottom:8px;
+     color:rgb(154,52,18);
+    font-weight:700;
+}
+.dashblk2 h3{
+    font-weight: 600;
+    margin-left:15px;
+}
+@media (max-width:750)
+{
+    header
+    {
+        display:none;
+    }
+}
