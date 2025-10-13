@@ -11,6 +11,11 @@ export const Page2=()=>
     {
         navigate("/Page1");
     }
+    const dashboard=()=>
+    {
+        navigate("/Page3");
+    }
+    
     return(
         <>
         <div class="block1">
@@ -32,7 +37,7 @@ export const Page2=()=>
                 {/* <FontAwesomeIcon icon={faLock} className="input-icon" /> */}
                 <input className="input2" placeholder="password" />
             </div>
-            <button >Sign In</button>
+            <button onClick={dashboard}>Sign In</button>
        </div>
         <p class="demohead">Demo Credentials</p>
        <div class="block3">
@@ -58,3 +63,4 @@ export const Page2=()=>
         </>
     )
 }
+export default Page2;

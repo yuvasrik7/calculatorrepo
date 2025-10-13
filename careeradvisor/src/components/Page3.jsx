@@ -16,10 +16,12 @@ export const Page3=()=>
         <> 
         <header>
            <h6 class=" head2"><button class="headbtn" >CA</button >    Career Advisor </h6>
+           <div class="head21">
            <p>DashBoard</p>
            <p>College Finder</p>
            <p>Career Path</p>
            <p>Aptitude Test</p>
+           </div>
            <button>id</button>
 
         </header> 
@@ -41,6 +43,7 @@ export const Page3=()=>
             </div>
             <div class="dashblk2">
                 <h3>Quick Actions</h3>
+                <div class="dashblk21">
                 <div class="takeaptitude">
                     <p class="takeaptitudehead">Take Aptitude Test</p>
                     <p>Discover your strengths and interest</p>
@@ -52,6 +55,7 @@ export const Page3=()=>
                  <div class="Explorecareer">
                     <p class="Explorecareerhead">Explore Career Paths</p>
                     <p>Explore different Career options</p>
+                </div>
                 </div>
             </div>
 

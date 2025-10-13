@@ -9,6 +9,7 @@ export const Page1=()=>
 {
     navigate("/Page2");
 };
+
 return(<>
      <header class="head">
         <h4 ><button class="headbtn" >CA</button>Career Advisor </h4>
@@ -74,7 +75,7 @@ return(<>
          <div class="block">
             <h2 class="blockh2">Ready to Start Your Journey?</h2>
             <p class="blockp">Join thousands of students who have found their perfect career path</p>
-            <button class="blockbutton" >Get Started Now  <FontAwesomeIcon icon={faArrowRight} style={{ color:"#3251efff"  }}/></button>
+            <button class="blockbutton" onClick={getstart} >Get Started Now  <FontAwesomeIcon icon={faArrowRight} style={{ color:"#3251efff"  }}/></button>
          </div>
          
      </body>
@@ -94,7 +95,7 @@ return(<>
 
         <div class="democred">
             <h3>Demo Credentials</h3>
-            <p><span class="demohead">Student: </span>student_demo / student1123</p>
+            <p><span class="demohead" >Student: </span><span class="user">student_demo</span> / <span class="pass">student1123</span></p>
             <p><span class="demohead">Teacher: </span>teacher_demo / teacher123</p> 
             <p><span class="demohead">Government:</span> gov_amin / gov123</p>
         </div>

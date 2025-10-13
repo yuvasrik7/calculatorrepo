@@ -12,15 +12,15 @@ export const App=()=>
 
   return (
     <>
-      {/* <BrowserRouter>
+      <BrowserRouter>
       <Routes>
         <Route path="/" element={<Page1 />} />      
         <Route path="/Page2" element={<Page2 />} />
-        <Route path="/Page1" element={<Page1/>} />
+        <Route path="/Page3" element={ <Page3/>}/>
           
       </Routes>
-    </BrowserRouter> */}
-    <Page3/>
+    </BrowserRouter>
+   
     
     </>
   )

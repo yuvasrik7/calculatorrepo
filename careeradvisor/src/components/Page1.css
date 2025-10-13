@@ -17,7 +17,7 @@ h1, h2, h3,h4{
    
     }
       .head p{
-      margin:5px;   
+      margin:1px;   
     }
 .headbtn{
     font-weight: 600;
@@ -39,11 +39,11 @@ h1, h2, h3,h4{
 }
 
 main{
-    margin-top:100px;
+    margin-top:60px;
 }
 .headp
 {   text-align: center;
-    font-size: 3rem;
+    font-size: 3.3rem;
     font-weight: 800;
 }
 main p{
@@ -220,16 +220,21 @@ main p{
    color: rgb(165, 164, 164);
     background-color:  oklab(21.079% 0.00608 -0.04292);
 }
-.footerp
+.footer p
 {
     padding:20px;
      padding-left: 0;
+     color:rgb(165, 164, 164);
 }
 .quicklinks p{
     padding:8px;
     padding-left: 0;
 }
-
+.credits p
+{
+   
+     color:rgb(165, 164, 164);
+}
 .democred p{
     padding:8px;
      padding-left: 0;
