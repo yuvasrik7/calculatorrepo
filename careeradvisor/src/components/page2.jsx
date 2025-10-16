@@ -2,9 +2,9 @@ import React from 'react';
 import './Page2.css';
 import { useNavigate } from 'react-router-dom';
 
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faUser } from '@fortawesome/free-regular-svg-icons/faUser';
-// import { faLock } from '@fortawesome/free-regular-svg-icons/faLock';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+ import { faUser } from '@fortawesome/free-solid-svg-icons/faUser';
+ import { faLock } from '@fortawesome/free-solid-svg-icons/faLock';
 export const Page2=()=>
 {   const navigate=useNavigate();
     const home=()=>
@@ -13,7 +13,7 @@ export const Page2=()=>
     }
     const dashboard=()=>
     {
-        navigate("/Page3");
+        navigate("/Maincomponent");
     }
     
     return(
@@ -28,14 +28,14 @@ export const Page2=()=>
         <div className="block2">
             <label>Username</label>
             <div className="input-container">
-                    {/* <FontAwesomeIcon icon={faUser} className="input-icon" /> */}
-                <input className="input1" placeholder="student_demo" />
+                <FontAwesomeIcon icon={faUser} className="input-icon" />
+                <input className="input1" placeholder="Enter username" required />
             </div>
 
             <label>Password</label>
             <div className="input-container">
-                {/* <FontAwesomeIcon icon={faLock} className="input-icon" /> */}
-                <input className="input2" placeholder="password" />
+                 <FontAwesomeIcon icon={faLock} className="input-icon" />
+                <input className="input2"  placeholder="password" />
             </div>
             <button onClick={dashboard}>Sign In</button>
        </div>

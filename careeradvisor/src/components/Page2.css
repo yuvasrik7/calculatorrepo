@@ -60,10 +60,45 @@ h1, h2, h3,h4,label{
 .block2 button:hover{
     background-color: rgb(27, 62, 239);;
 }
-.input-container
-{
-    margin-bottom:20px;
+
+.input-container {
+  position: relative;
+  width: 100%;
 }
+
+.input1,
+.input2 {
+  width: 100%;
+  padding: 10px 10px 10px 20px; 
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.input1:focus,
+.input2:focus {
+  border-color: rgb(0, 0, 0);
+}
+
+.input-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: gray;
+  font-size: 18px;
+  pointer-events: none;
+  transition: color 0.3s ease;
+}
+.input1:focus ~ .input-icon,
+.input2:focus ~ .input-icon {
+  color: rgb(30, 60, 175);
+}
+
+
 .block2 label{
     font-weight: 600;
     font-size:0.85rem;
@@ -75,7 +110,7 @@ h1, h2, h3,h4,label{
     width:100%;
     border-radius: 5px;
     margin-right:5px;
-    padding-left:5px;
+    padding-left:40px;
     font-size:1rem; 
 
 }

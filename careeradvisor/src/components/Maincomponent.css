@@ -1,0 +1,45 @@
+.head21 a {
+  text-decoration: none;
+  color: #666666;
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: 700;
+  transition: 0.3s;
+}
+.headbtn{
+    font-weight: 650;
+    color:white;
+    background:rgb(50, 81, 239);
+    border:none;
+    padding:9px;
+    margin-right:10px;
+    border-radius: 10px;
+  
+}   
+.head21 a:hover,
+.head21 a:focus,
+.h.active {
+  background-color: rgb(233, 241, 251);
+  color: rgb(30, 60, 175);
+}
+
+.head21 a svg {
+  color: inherit; /* ensures icon inherits text color */
+  transition: color 0.3s;
+}
+@media (max-width:750px)
+{
+  .head21
+  {
+    display:none;
+  }
+ .sp
+  {
+    margin-left: auto;
+    padding-right:10px;
+  }
+}
+ 
